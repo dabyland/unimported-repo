@@ -1,0 +1,9 @@
+{
+	"name": "unimported-repo",
+	"version": "1.0.0",
+	"description": "Troubleshooting my import/alias issues for unimported",
+	"dependencies": {
+		"unimported": "^1.11.0",
+		"cross-env": "^6.0.3"
+	}
+}

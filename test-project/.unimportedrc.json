@@ -1,0 +1,11 @@
+{
+	"entry": ["./apps/manager/src/index.js"],
+	"extensions": [".js"],
+	"ignorePatterns": ["**/node_modules/**"],
+	"ignoreUnresolved": ["some-npm-dependency"],
+	"ignoreUnimported": ["src/i18n/locales/en.ts", "src/i18n/locales/nl.ts"],
+	"ignoreUnused": ["create-emotion", "unimported"],
+	"aliases": {
+		"~/*": ["/apps/manager/src/*"]
+	}
+}
